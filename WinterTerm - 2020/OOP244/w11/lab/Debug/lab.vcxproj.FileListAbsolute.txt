@@ -1,0 +1,2 @@
+C:\Seneca\WinterTerm\OOP244\w11\lab\Debug\lab.exe
+C:\Seneca\WinterTerm\OOP244\w11\lab\Debug\lab.pdb

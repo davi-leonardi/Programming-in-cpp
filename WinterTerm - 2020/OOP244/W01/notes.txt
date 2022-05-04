@@ -1,0 +1,13 @@
+namespace: 
+
+- using namespace davi;		// all code under will use the entities from davi
+
+- using davi::x 			// used for only entity (x)
+
+including libraries: DO NOT WRITE .h FOR STANDARD LIBRARIES (ex: <iostream>), write .h for user created header files.
+
+always include:
+//Name: Davi Leonardi Mathey
+//Email: dleonardi-mathey@myseneca.ca
+//ID: 154979199
+//Section: OOP244NFF

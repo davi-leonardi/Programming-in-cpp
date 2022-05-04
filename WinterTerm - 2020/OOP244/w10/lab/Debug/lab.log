@@ -1,0 +1,31 @@
+﻿  main.cpp
+C:\Seneca\WinterTerm\OOP244\w10\lab\searchNlist.h(46,15): error C2676: binary '!=': 'const T' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              T=sdds::Car
+          ]
+C:\Seneca\WinterTerm\OOP244\w10\lab\main.cpp(34): message : see reference to function template instantiation 'void sdds::listArrayElements<sdds::Car>(const char *,const T *,int)' being compiled
+          with
+          [
+              T=sdds::Car
+          ]
+C:\Seneca\WinterTerm\OOP244\w10\lab\searchNlist.h(46,15): error C2676: binary '!=': 'const T' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              T=sdds::Student
+          ]
+C:\Seneca\WinterTerm\OOP244\w10\lab\main.cpp(50): message : see reference to function template instantiation 'void sdds::listArrayElements<sdds::Student>(const char *,const T *,int)' being compiled
+          with
+          [
+              T=sdds::Student
+          ]
+C:\Seneca\WinterTerm\OOP244\w10\lab\searchNlist.h(46,15): error C2676: binary '!=': 'const T' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              T=sdds::Employee
+          ]
+C:\Seneca\WinterTerm\OOP244\w10\lab\main.cpp(67): message : see reference to function template instantiation 'void sdds::listArrayElements<sdds::Employee>(const char *,const T *,int)' being compiled
+          with
+          [
+              T=sdds::Employee
+          ]

@@ -1,0 +1,9 @@
+// Workshop 9 - Multi-Threading
+//Name: Davi Leonardi Mathey
+//ID: 154979199
+//e-mail: dleonardi-mathey@myseneca.ca
+//date: Nov 27, 2021
+
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+This week I learned about multi-threading and thread classes. The concept of threads is fairly simple to understand, the implementation can be very complex though. Our computers have processors that are responsible for processing tasks and depending on the program those tasks can take a lot of time. In order to optimize performance, we can divide the tasks between different threads (sub-processing components) and split the work that has to be done as fast as possible. The thread class is defined in the header file <thread> and includes some member functions such as join() and get_id(). The first member only returns the object after the completion of the task, the second returns the thread ID (unique identifier). The use of binary files for this workshop was recommended because we are working with code optimization (binary files are faster because do not require format conversion). The use of std::bind() is important because we are dealing with arguments that change in position and number of values. The most important advantage of using multi-threading is code optimization, in other words, making a code run faster and prevent a single thread to be overloaded with complex operations.

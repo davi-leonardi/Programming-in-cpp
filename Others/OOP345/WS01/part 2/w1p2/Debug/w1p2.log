@@ -1,0 +1,6 @@
+﻿  event.cpp
+C:\Seneca\FallTerm - 2021\OOP345\WS01\part 2\w1p2\event.cpp(40,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Seneca\FallTerm - 2021\OOP345\WS01\part 2\w1p2\event.cpp(57,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Seneca\FallTerm - 2021\OOP345\WS01\part 2\w1p2\event.cpp(101,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  w1_p2.cpp
+  Generating Code...

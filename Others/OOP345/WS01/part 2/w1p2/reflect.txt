@@ -1,0 +1,10 @@
+//Workshop 03 - Templates
+//Name: Davi Leonardi Mathey
+//ID: 154979199
+//e-mail: dleonardi-mathey@myseneca.ca
+//date: Oct 02, 2021
+//reflect.txt
+
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshopsand assignments.
+
+This workshop focused on templates, one of the most useful resources for object-oriented programming with strong polymorphism. Templates allow programmers to reuse functions with different types without having to rewrite them. There are several different types of parameters such as type template, non-type template and template template parameters. The syntax of a template declaration consists of the keyword “template” followed by the parameter list; for example, “template<unsigned int N, typename T>”, where “N” is a non-type parameter and “T” is a type parameter. Another concept within templates is the specialization, which defines an exception for the parameters of a pre-defined template function; for example, the “operator+=” from the workshop is defining an exception for std::string parameters. Specialization declaration consists of “template<>”, and after that comes the function definition. The “operator+=” had to be “specialized” because the behavior changes depending on the parameter list (std::string requires comma separated records, and other parameters do not). We did not have to specialize the initial value because its behavior remains the same regardless of the type (differently from the operator+=). The static variables had to be defined outside the class because they are shared among all the objects of that class and only initialized once (cannot be initialized by a ctor). Templates can only be implemented in header files because the compilation cannot be independent, all the templates have to be instantiated before compiled.

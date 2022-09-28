@@ -1,0 +1,2 @@
+C:\Seneca\WinterTerm\OOP244\w08\lab8\Debug\lab8.exe
+C:\Seneca\WinterTerm\OOP244\w08\lab8\Debug\lab8.pdb
